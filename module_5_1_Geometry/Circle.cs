@@ -12,7 +12,11 @@ namespace Geometry
         public double r
         {
             get { return fd.a; }
-            set { fd.a = value; }
+            set
+            {
+                if (value > 0) fd.a = value;
+                else throw new ArgumentException("radius <=0");
+            }
         }
         public void Move(int dx, int dy)
         {
