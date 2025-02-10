@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "module_3_2_Geometry", "modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "module_4_1", "module_4_1\module_4_1.csproj", "{1968E615-E0A4-4C63-84E2-E644574F39F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "module_4-1dop", "module_4_2\module_4-1dop.csproj", "{FB302739-C914-4F47-BE2B-C3895BB7933E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "module_4_2", "module_4_2\module_4_2.csproj", "{FB302739-C914-4F47-BE2B-C3895BB7933E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "module_5_1_Geometry", "module_5_1_Geometry\module_5_1_Geometry.csproj", "{3F997852-5B75-4E18-A518-0DFB0AED0F36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FB302739-C914-4F47-BE2B-C3895BB7933E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB302739-C914-4F47-BE2B-C3895BB7933E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB302739-C914-4F47-BE2B-C3895BB7933E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F997852-5B75-4E18-A518-0DFB0AED0F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F997852-5B75-4E18-A518-0DFB0AED0F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F997852-5B75-4E18-A518-0DFB0AED0F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F997852-5B75-4E18-A518-0DFB0AED0F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
