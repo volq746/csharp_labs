@@ -9,7 +9,8 @@ namespace Lab9
             Books books = new Books();
             Console.WriteLine("Books sort by Price:");
             foreach (Book book in books.GetByPrice())       Console.WriteLine(book);
-            //foreach (Book book in books.GetReverseEnum())   Console.WriteLine(book);
+            Console.WriteLine("Books sort Reverse:");
+            foreach (Book book in books.GetReverseEnum())   Console.WriteLine(book);
             Console.WriteLine("Books sort by Author:");
             foreach (Book book in books.GetByAuthor())      Console.WriteLine(book);
 

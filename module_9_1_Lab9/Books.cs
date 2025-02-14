@@ -7,15 +7,13 @@ namespace Lab9
     {
         Book[] books;
         public Books() { books = Book.TestBooks(); }
-        public IEnumerator GetEnumerator() { return books.GetEnumerator(); }
-        public IEnumerable GetByAuthor()
+        public IEnumerator GetEnumerator() => books.GetEnumerator();
+        public IEnumerable GetByAuthor() => new EnumAuthor(books);
+        public IEnumerable GetByPrice() => new EnumPrice(books);
+        public IEnumerable GetReverseEnum()
         {
-            return new EnumAuthor(books);
+            for (int i = books.Length - 1; i >= 0; --i)
+                yield return books[i];
         }
-        public IEnumerable GetByPrice()
-        {
-            return new EnumPrice(books);
-        }
-
     }
 }
