@@ -25,7 +25,7 @@ namespace Geometry
         public override bool Equals(object? obj)
         {
             if (obj is Shape) return ((this.fd.a == ((Shape)obj).fd.a) && (this.fd.b == ((Shape)obj).fd.b));
-            return false;
+            return base.Equals(obj);
         }
         public override int GetHashCode()
         {
@@ -34,7 +34,7 @@ namespace Geometry
 
         public static bool operator ==(Shape shape1, Shape shape2)
         {
-            return shape1.Equals(shape2);
+            return Equals(shape1,shape2);
         }
         public static bool operator !=(Shape shape, Shape shape2)
         {
